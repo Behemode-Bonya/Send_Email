@@ -17,5 +17,6 @@ monthes = "6 месяцев"
 email_to = 'karinakaa1966@gmail.com'
 subject = 'Варр приде к вам'
 text = f'Привет Мама(Папа), я занимаюсь в школе третье место уже {monthes}. В процессе я выполнил модули: {finish_lessons}! Сейчас я работаю над модулями {feature_lessons}. Обучение мне нравится, я получил море знаний!'
+alternative_text = f"Привет Мама(Папа), я занимаюсь в школе третье место уже {monthes}. Сейчас я работаю над модулями {finish_lessons}. Пока что я улучшаю свои навыки и узнаю много нового!"
 
 server.sendmail(email_from, email, f"Subject: {subject}\n\n{text}")
